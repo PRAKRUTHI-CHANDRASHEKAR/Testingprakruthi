@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.cg.priorityDemo.CRMpositiveNegative">
+        <methods>
+          <include name="CRMLoginNegative"/>
+          <include name="CRMLogin_positive"/>
+          <include name="setup"/>
+          <include name="LogOut"/>
+        </methods>
+      </class> <!-- com.cg.priorityDemo.CRMpositiveNegative -->
+      <class name="com.cg.VVAutomationTest.TestNg.AnnotationsDemo">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+          <include name="afterSuite"/>
+          <include name="testMethod2"/>
+          <include name="afterClass"/>
+          <include name="testMethod1"/>
+          <include name="beforeSuite"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.cg.VVAutomationTest.TestNg.AnnotationsDemo -->
+      <class name="DataProvider.DPDemo1">
+        <methods>
+          <include name="TestDp"/>
+        </methods>
+      </class> <!-- DataProvider.DPDemo1 -->
+      <class name="com.cg.VVAutomationTest.TestNg.CRMLogin">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="checkTitle"/>
+        </methods>
+      </class> <!-- com.cg.VVAutomationTest.TestNg.CRMLogin -->
+      <class name="com.cg.priorityDemo.FilghBookingDemo">
+        <methods>
+          <include name="LogIn"/>
+          <include name="signup"/>
+          <include name="BookTheFlight"/>
+          <include name="SaveTheTicket"/>
+          <include name="LogOut"/>
+          <include name="SearchForTheFlight"/>
+        </methods>
+      </class> <!-- com.cg.priorityDemo.FilghBookingDemo -->
+      <class name="com.cg.VVAutomationTest.TestNg.Demo">
+        <methods>
+          <include name="checkTitle"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.cg.VVAutomationTest.TestNg.Demo -->
+      <class name="DataProvider.DPDemo">
+        <methods>
+          <include name="TesdDp"/>
+        </methods>
+      </class> <!-- DataProvider.DPDemo -->
+      <class name="DataProvider.DataProviderDemo1">
+        <methods>
+          <include name="myTest"/>
+        </methods>
+      </class> <!-- DataProvider.DataProviderDemo1 -->
+      <class name="Parameters.ParameterDemo">
+        <methods>
+          <include name="OpenBrowser"/>
+          <include name="LoginCredentials"/>
+          <include name="clickAdmin"/>
+        </methods>
+      </class> <!-- Parameters.ParameterDemo -->
+      <class name="DataProvider.Dependent">
+        <methods>
+          <include name="OpenBrwoser"/>
+          <include name="Sigin"/>
+          <include name="LogOut"/>
+        </methods>
+      </class> <!-- DataProvider.Dependent -->
+      <class name="DataProvider.BasicTestDataProvider">
+        <methods>
+          <include name="TestLogin"/>
+        </methods>
+      </class> <!-- DataProvider.BasicTestDataProvider -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

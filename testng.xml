@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.cg.VVAutomationTest.TestNg.CRMLogin"/>
+      <class name="DataProvider.DPDemo1"/>
+      <class name="com.cg.priorityDemo.CRMpositiveNegative"/>
+      <class name="com.cg.VVAutomationTest.TestNg.Demo"/>
+      <class name="DataProvider.BasicTestDataProvider"/>
+      <class name="com.cg.VVAutomationTest.TestNg.AnnotationsDemo"/>
+      <class name="com.cg.VVAutomationTest.TestNg.AppTest"/>
+      <class name="DataProvider.DPDemo"/>
+      <class name="DataProvider.Dependent"/>
+      <class name="Parameters.ParameterDemo"/>
+      <class name="DataProvider.DataProviderDemo1"/>
+      <class name="com.cg.priorityDemo.FilghBookingDemo"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
